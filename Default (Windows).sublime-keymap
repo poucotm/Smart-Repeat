@@ -1,0 +1,3 @@
+[
+	{ "keys": ["alt+insert"], "command": "smart_repeat" }
+]
