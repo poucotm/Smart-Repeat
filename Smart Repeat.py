@@ -37,7 +37,7 @@ class SmartRepeatCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		selr = self.view.sel()[0]
 		self.text = self.view.substr(selr)
-		self.view.window().show_input_panel("type range [from]~[to],[↓step],[→step]", "", self.on_done, None, None)
+		self.view.window().show_input_panel("Type a range [from]~[to],[↓step],[→step]", "", self.on_done, None, None)
 
 	def on_done(self, user_input):
 		frm_err   = False
