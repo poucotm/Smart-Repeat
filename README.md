@@ -18,7 +18,7 @@ Smart Repeat helps to repeat code with incremental/decremental numbers.
 	e.g)
 		abc[{:2d}] = {:2d} + {:2d} + {:2d} + {:2d};
 
-		--> Select and Type Range as 0~10,1,2
+		--> Select and Type the Range as 0~10,1,2
 
 		abc[{:2d}] = {:2d} + {:2d} + {:2d} + {:2d};
 		abc[ 0] =  2 +  4 +  6 +  8;

@@ -17,11 +17,11 @@ ST3 = int(sublime.version()) >= 3000
 # def plugin_loaded():
 # 	global sr_settings
 # 	sr_settings = sublime.load_settings('Smart Repeat.sublime-settings')
-# 	sr_settings.clear_on_change('reload')
-# 	sr_settings.add_on_change('reload', plugin_loaded)
+# 	# sr_settings.clear_on_change('reload')
+# 	# sr_settings.add_on_change('reload', plugin_loaded)
 
 # def plugin_unloaded():
-	# print ("unloaded : Verilog Gadget.py")
+	# print ("unloaded : Smart Repeat.py")
 
 # def get_settings():
 # 	if ST3:
