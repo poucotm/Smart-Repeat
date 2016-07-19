@@ -5,7 +5,7 @@ Smart Repeat helps to repeat code with incremental/decremental numbers.
 * **Usage**
 	- Select code to be repeated, it may include Python's format symbol like {...}
 	- Run `Smart Repeat : Repeat Code with Numbers` command (default key map : `alt+insert` for Windows, Linux `alt+f11` for OSX)
-	- Type a range in the input panel as the following : [from]~[to],[↓step],[→step]  
+	- Type a range in the input panel as the following : [from]~[to],[↓step],[→step]
 	  ``(e.g. 0~10 or 0~10,2 or 10~0,-1 or 0~5,1,1 ...)``
 	- [↓step] means row step, default is 1, [→step] means column step, default is 0
 	- The codes will be repeated with incremental or decremental numbers
@@ -32,6 +32,20 @@ Smart Repeat helps to repeat code with incremental/decremental numbers.
 		abc[ 8] = 10 + 12 + 14 + 16;
 		abc[ 9] = 11 + 13 + 15 + 17;
 		abc[10] = 12 + 14 + 16 + 18;
+
+		abc[{0:2d}] = {0:2d} + {1:2d} + {2:2d} + {2:2d};
+
+		--> using index case, select and run the command and type the range 0~8,1,2
+
+		abc[ 0] =  0 +  2 +  4 +  4;
+		abc[ 1] =  1 +  3 +  5 +  5;
+		abc[ 2] =  2 +  4 +  6 +  6;
+		abc[ 3] =  3 +  5 +  7 +  7;
+		abc[ 4] =  4 +  6 +  8 +  8;
+		abc[ 5] =  5 +  7 +  9 +  9;
+		abc[ 6] =  6 +  8 + 10 + 10;
+		abc[ 7] =  7 +  9 + 11 + 11;
+		abc[ 8] =  8 + 10 + 12 + 12;
 ```
 
 ## issues
