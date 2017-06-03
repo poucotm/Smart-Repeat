@@ -2,6 +2,8 @@
 
 Smart Repeat helps to repeat code with incremental/decremental numbers.
 
+![Image](https://raw.githubusercontent.com/poucotm/Links/master/image/vg_rep.gif)
+
 * **Usage**
 	- Select code to be repeated, it may include Python's format symbol like {...}
 	- Run `Smart Repeat : Repeat Code with Numbers` command (default key map : `alt+insert` for Windows, Linux `alt+f11` for OSX)
