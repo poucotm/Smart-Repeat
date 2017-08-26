@@ -52,4 +52,4 @@ Smart Repeat helps to repeat code with incremental/decremental numbers.
 
 ## issues
 
-When you have an issue, tell me through [https://github.com/poucotm/Smart-Repeat/issues](https://github.com/poucotm/Smart-Repeat/issues), or send me an e-mail poucotm@gmail.com, yongchan.jeon@samsung.com
+When you have an issue, tell me through [https://github.com/poucotm/Smart-Repeat/issues](https://github.com/poucotm/Smart-Repeat/issues), or send me an e-mail poucotm@gmail.com

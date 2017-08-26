@@ -4,7 +4,7 @@
 # Author : yongchan jeon (Kris) poucotm@gmail.com
 # File   : Smart Repeat.py
 # Create : 2016-06-10 23:12:21
-# Editor : sublime text3, tab size (3)
+# Editor : sublime text3, tab size (4)
 # -----------------------------------------------------------------------------
 
 import sublime
