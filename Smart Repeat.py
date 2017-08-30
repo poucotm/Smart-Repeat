@@ -16,14 +16,14 @@ for mod in sys.modules:
 
 from .core.engine import *
 
+if any('package_control' == m for m in sys.modules):
+    package_control_installed = True
+    from package_control import events
+else:
+    package_control_installed = False
+
 def plugin_loaded():
-    from package_control import events
 
-    if events.install('Smart Repeat'):
-        print('Installed %s' % events.install('Smart Repeat'))
-
-def plugin_unloaded():
-    from package_control import events
-
-    if events.remove('Smart Repeat'):
-        print('Removing %s' % events.remove('Smart Repeat'))
+    if package_control_installed:
+	    if events.install('Smart Repeat'):
+   	     print('Installed %s' % events.install('Smart Repeat'))
