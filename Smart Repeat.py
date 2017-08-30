@@ -10,17 +10,27 @@
 import sublime
 import sublime_plugin
 import re
+import sys
 
 ############################################################################
 # for settings
 
 ST3 = int(sublime.version()) >= 3000
 
-# def plugin_loaded():
-#   global sr_settings
-#   sr_settings = sublime.load_settings('Smart Repeat.sublime-settings')
-#   # sr_settings.clear_on_change('reload')
-#   # sr_settings.add_on_change('reload', plugin_loaded)
+if any('package_control' == m for m in sys.modules):
+    package_control_installed = True
+    from package_control import events
+else:
+    package_control_installed = False
+
+
+##  plugin_loaded  ____________________________________________
+
+def plugin_loaded():
+    if package_control_installed:
+        if events.install('Smart Repeat'):
+            print ('installed : Smart Repeat')
+    pass
 
 # def plugin_unloaded():
 #     print ("unloaded : Smart Repeat.py")
