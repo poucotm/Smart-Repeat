@@ -1,8 +1,9 @@
-# Smart Repeat for Sublime Text
+# Smart Repeat for Sublime Text (WILL BE REMOVED)
+
+If you want this function, use [Verilog Gadget: Repeat Code with Numbers](https://packagecontrol.io/packages/Verilog%20Gadget). 
+It works not only for verilog code extension.
 
 Smart Repeat helps to repeat code with incremental/decremental numbers.
-
-![Image](https://raw.githubusercontent.com/poucotm/Links/master/image/vg_rep.gif)
 
 * **Usage**
 	- Select code to be repeated, it may include Python's format symbol like {...}
