@@ -1,4 +1,4 @@
-# Smart Repeat for Sublime Text (WILL BE REMOVED)
+# Smart Repeat for Sublime Text
 
 If you want this function, use [Verilog Gadget: Repeat Code with Numbers](https://packagecontrol.io/packages/Verilog%20Gadget). 
 It works not only for verilog code extension.
